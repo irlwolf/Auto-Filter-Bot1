@@ -72,8 +72,7 @@ DATA_DATABASE_URL = environ.get('DATA_DATABASE_URL', "mongodb+srv://irlwolf:9aEp
 if len(DATA_DATABASE_URL) == 0:
     logger.error('DATA_DATABASE_URL is missing, exiting now')
     exit()
-FILES_DATABASE_URL = environ.get('FILES_DATABASE_URL', "mongodb+srv://irlwolf:9aEpUre0fkmBjHVz@cluster0.jkd3o.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
-")
+FILES_DATABASE_URL = environ.get('FILES_DATABASE_URL', "mongodb+srv://irlwolf:9aEpUre0fkmBjHVz@cluster0.jkd3o.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 if len(FILES_DATABASE_URL) == 0:
     logger.error('FILES_DATABASE_URL is missing, exiting now')
     exit()
